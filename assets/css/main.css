@@ -2635,7 +2635,8 @@ input, select, textarea {
 		.image.main {
 			display: block;
 			margin: 4rem 0;
-			width: 100%;
+			width: 100px;
+			height: 50px;
 		}
 
 			.image.main:first-child {
@@ -2643,8 +2644,7 @@ input, select, textarea {
 			}
 
 			.image.main img {
-				width: 100px;
-				height: 50px;
+				width: 100%;
 			}
 
 		@media screen and (max-width: 736px) {
